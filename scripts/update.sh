@@ -18,4 +18,5 @@
 # Now you'll be able to execute this via the "alias" you've made. In my example, it would be "updatesys"
 
 sudo dnf upgrade # Download system upgrades...
+sudo dnf autoremove -y # Remove unused packages
 sudo shutdown -r now # Restart system immediately
